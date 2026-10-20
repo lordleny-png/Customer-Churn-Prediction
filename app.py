@@ -17,7 +17,7 @@ st.set_page_config(
 from pathlib import Path
 
 APP_DIR = Path(__file__).resolve().parent
-MODEL_PATH = APP_DIR / "churn_model.json"
+MODEL_PATH = APP_DIR / "churn_model_.json"
 
 if not MODEL_PATH.is_file():
     st.error("The model file could not be found.")
