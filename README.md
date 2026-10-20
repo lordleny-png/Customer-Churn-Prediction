@@ -96,6 +96,12 @@ The threshold of 0.40 was selected as a candidate for customer retention use cas
 
 ## 📈 Interactive Dashboard
 
+### Dashboard Preview
+
+![Customer Churn Prediction Dashboard](churn_dashboard.png)
+
+
+
 The Streamlit application allows users to:
 
 - Enter customer demographic and service information.
