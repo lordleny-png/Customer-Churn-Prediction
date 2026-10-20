@@ -1,0 +1,188 @@
+{
+    "project": "Telco Customer Churn Prediction",
+    "model_name": "Logistic Regression",
+    "threshold": 0.4,
+    "classes": [
+        "No",
+        "Yes"
+    ],
+    "numerical_features": [
+        "SeniorCitizen",
+        "tenure",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "categorical_features": [
+        "gender",
+        "Partner",
+        "Dependents",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod"
+    ],
+    "numerical_imputer_medians": [
+        0.0,
+        29.0,
+        70.6,
+        1410.25
+    ],
+    "scaler_means": [
+        0.16177777777777777,
+        32.562311111111114,
+        64.99931555555555,
+        2301.83952
+    ],
+    "scaler_scales": [
+        0.3682468308011104,
+        24.5402396436929,
+        30.105965373777526,
+        2275.383801039277
+    ],
+    "categorical_imputer_modes": [
+        "Male",
+        "No",
+        "No",
+        "Yes",
+        "No",
+        "Fiber optic",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No",
+        "Month-to-month",
+        "Yes",
+        "Electronic check"
+    ],
+    "categorical_categories": [
+        [
+            "Female",
+            "Male"
+        ],
+        [
+            "No",
+            "Yes"
+        ],
+        [
+            "No",
+            "Yes"
+        ],
+        [
+            "No",
+            "Yes"
+        ],
+        [
+            "No",
+            "No phone service",
+            "Yes"
+        ],
+        [
+            "DSL",
+            "Fiber optic",
+            "No"
+        ],
+        [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        [
+            "No",
+            "No internet service",
+            "Yes"
+        ],
+        [
+            "Month-to-month",
+            "One year",
+            "Two year"
+        ],
+        [
+            "No",
+            "Yes"
+        ],
+        [
+            "Bank transfer (automatic)",
+            "Credit card (automatic)",
+            "Electronic check",
+            "Mailed check"
+        ]
+    ],
+    "coefficients": [
+        0.071010703613963,
+        -1.3523130200863829,
+        -0.541006354301285,
+        0.6440135457057736,
+        -0.14277878979014863,
+        -0.166893064924333,
+        -0.1424188822641694,
+        -0.16725297245032736,
+        -0.03915135587560789,
+        -0.2705204988388933,
+        -0.10436523844524248,
+        -0.2053066162692529,
+        -0.29347031862109846,
+        -0.10436523844524248,
+        0.08816370235184576,
+        -0.6161322185962946,
+        0.5901840344393567,
+        -0.28372367055754333,
+        0.16445947012574882,
+        -0.28372367055754333,
+        -0.1904076542826815,
+        0.04363902692901885,
+        -0.28372367055754333,
+        -0.06958721108596157,
+        -0.058641599296929664,
+        -0.28372367055754333,
+        0.03269341513999264,
+        0.1429487771864335,
+        -0.28372367055754333,
+        -0.16889696134337823,
+        -0.21706126058367806,
+        -0.28372367055754333,
+        0.19111307642672948,
+        -0.20302455350944934,
+        -0.28372367055754333,
+        0.17707636935250942,
+        0.6138456087437839,
+        -0.14448766221511095,
+        -0.7790298012431492,
+        -0.30038653030347134,
+        -0.00928532441102026,
+        -0.20475537606276534,
+        -0.16205628639273834,
+        0.1806705622270918,
+        -0.12353075448607008
+    ],
+    "intercept": -0.5661208565339014
+}
