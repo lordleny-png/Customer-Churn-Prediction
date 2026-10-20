@@ -12,10 +12,19 @@ st.set_page_config(
 )
 
 # Load model parameters
+
+import json
+from pathlib import Path
+
+# Load the model JSON from the directory containing app.py
+MODEL_PATH = Path(__file__).resolve().parent / "churn_model.json"
+
 @st.cache_data
 def load_model():
-    with open("churn_model.json", "r") as file:
+    with MODEL_PATH.open("r", encoding="utf-8") as file:
         return json.load(file)
+
+model = load_model()
 
 model = load_model()
 
