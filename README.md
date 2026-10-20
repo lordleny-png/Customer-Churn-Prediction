@@ -103,7 +103,7 @@ The Streamlit application allows users to:
 - Estimate the probability of customer churn.
 - Classify a customer as likely or unlikely to churn using the selected threshold.
 
-**Live application:** [Open the Customer Churn Prediction Dashboard](ADD_YOUR_STREAMLIT_APP_URL_HERE)
+**Live application:** [Open the Customer Churn Prediction Dashboard](https://customer-churn-prediction-byx3hofdya5lhgkkpsfcvz.streamlit.app/)
 
 Replace the placeholder above with your actual Streamlit Cloud URL.
 
