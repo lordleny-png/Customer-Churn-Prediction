@@ -98,7 +98,7 @@ The threshold of 0.40 was selected as a candidate for customer retention use cas
 
 ### Dashboard Preview
 
-![Customer Churn Prediction Dashboard](churn_dashboard.png)          
+![Customer Churn Prediction Dashboard](churn.png)          
 
 
 
