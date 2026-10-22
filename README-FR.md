@@ -100,7 +100,7 @@ L'application Streamlit permet de saisir les caractéristiques d'un client et d'
 
 ### Aperçu du tableau de bord
 
-![Tableau de bord de prédiction de l'attrition des clients](churn_dashboard.png)
+![Tableau de bord de prédiction de l'attrition des clients](churn.png)
 
 *Remarque : le fichier `churn_dashboard.png` doit être présent dans le dépôt GitHub pour que l'image s'affiche correctement.*
 
