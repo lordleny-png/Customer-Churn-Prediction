@@ -96,7 +96,7 @@ Ce compromis peut être intéressant pour une entreprise qui souhaite privilégi
 
 L'application Streamlit permet de saisir les caractéristiques d'un client et d'obtenir une prédiction de résiliation accompagnée d'une probabilité estimée.
 
-**Accéder à l'application :** [Customer Churn Prediction — Streamlit](ADD_YOUR_STREAMLIT_APP_URL_HERE)
+**Accéder à l'application :** [Customer Churn Prediction — Streamlit](https://customer-churn-prediction-byx3hofdya5lhgkkpsfcvz.streamlit.app/)
 
 ### Aperçu du tableau de bord
 
